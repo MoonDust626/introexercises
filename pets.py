@@ -1,6 +1,7 @@
-def describe_pets(pet_name, animal_type='dog'):
-    """Display information about a pet."""
-    print('\nI have a ' + animal_type + '.')
-    print('My ' + animal_type + '\'s name is ' + pet_name.title() + '.')
+pets = ['dog', 'cat', 'dog', 'goldfish', 'cat', 'rabbit', 'cat']
+print(pets)
 
-describe_pets(pet_name='harry', animal_type='hamster')
+while 'cat' in pets:
+    pets.remove('cat')
+
+print(pets)
